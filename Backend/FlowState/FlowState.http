@@ -1,6 +1,6 @@
-@FlowState_HostAddress = http://localhost:5265
+@FlowState_HostAddress = https://localhost:7198
 
-GET {{FlowState_HostAddress}}/weatherforecast/
+GET {{FlowState_HostAddress}}/api/sessions/health
 Accept: application/json
 
 ###
